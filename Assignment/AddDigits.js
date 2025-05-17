@@ -1,0 +1,1 @@
+let theNumber = Number(prompt("Enter the number between 1-10,000"));
