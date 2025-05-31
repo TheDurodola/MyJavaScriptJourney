@@ -1,0 +1,1 @@
+console.log("N\tN2\tN3\tN4");let loopCondition = 1; while(loopCondition<11){ console.log(loopCondition + "\t"+ loopCondition*loopCondition+"\t"+loopCondition*loopCondition*loopCondition + "\t"+ loopCondition * loopCondition* loopCondition * loopCondition); loopCondition++; };
