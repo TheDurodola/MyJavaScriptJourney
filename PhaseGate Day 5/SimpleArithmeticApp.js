@@ -3,10 +3,9 @@ const prompt = input();
 
 console.log("\t\t\t\tSIMPLE ARITHMETIC APP\n");
 
-//let startTime = Date.now;
+let startTime = Date.now();
 
 
-console.log(startTime);
 let outer_counter = 0;
 let correct_answer = 0;
 while(outer_counter<10){
@@ -54,3 +53,6 @@ outer_counter++;
 
 
 console.log("Your score is: ", correct_answer);
+
+let endTime = Date.now() - startTime;
+console.log(Math.round(endTime);
