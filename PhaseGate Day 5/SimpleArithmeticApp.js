@@ -3,7 +3,7 @@ const prompt = input();
 
 console.log("\t\t\t\tSIMPLE ARITHMETIC APP\n");
 
-let startTime = Date.now;
+//let startTime = Date.now;
 
 
 console.log(startTime);
