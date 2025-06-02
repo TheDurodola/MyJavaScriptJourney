@@ -32,8 +32,6 @@ while(outer_counter<10){
 	while(inner_counter<2){
 		let result = minuend - subtrahend;
 
-//console.log(minuend);
-//console.log(subtrahend);
 		console.log("What is " + minuend + " - " + subtrahend + " =");
 
 		let userInput = Number(prompt("The answer is: "));
