@@ -7,8 +7,7 @@ let num1 = Number(prompt("Enter your first figure: "));
 
 let result = 0;
 while(num1>result){
-System.out.print("Enter your next figure: ");
-let num2 = input.nextInt();
+let num2 = ("Enter your next figure: ");
 result = result + num2;
 }
 
