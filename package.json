@@ -1,0 +1,23 @@
+{
+  "name": "my-javascript-journey",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheDurodola/MyJavaScriptJourney.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheDurodola/MyJavaScriptJourney/issues"
+  },
+  "homepage": "https://github.com/TheDurodola/MyJavaScriptJourney#readme",
+  "description": "",
+  "dependencies": {
+    "jest": "^30.0.4"
+  }
+}
