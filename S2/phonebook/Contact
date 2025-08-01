@@ -1,0 +1,48 @@
+class ContactInfo {
+  #name;
+  #phoneNumber;
+
+  constructor(name, phoneNumber) {
+    name = this.validateName(name);
+    this.validatePhoneNumber(phoneNumber);
+    this.#name = name;
+    this.#phoneNumber = phoneNumber;
+  }
+
+  updateName(newName) {
+    this.validateName(newName);
+    this.#name = newName;
+  }
+
+  updatePhoneNumber(newPhoneNumber) {
+    this.validatePhoneNumber(newPhoneNumber);
+    this.#phoneNumber = newPhoneNumber;
+  }
+
+  getName() {
+    return this.#name;
+  }
+
+  getPhoneNumber() {
+    return this.#phoneNumber;
+  }
+
+  validateName(name) {
+    if (name.length === 0) {
+      throw new Error("Name cannot be empty");
+    }
+    if(name)
+    name = name.trimStart();
+    name = name.trimEnd();
+    return name;
+  }
+
+  validatePhoneNumber(phoneNumber) {
+    if (phoneNumber.length === 0) {
+      throw new Error("Phone number cannot be empty");
+    }
+
+  }
+}
+
+module.exports = ContactInfo;
